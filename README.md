@@ -7,6 +7,7 @@ The problem is to solve a labyrinth with the shortest path, where walls are repr
 ## Solution
 To solve it, Java has been used. An A* search algorithm has been applied, and to ensure the shortest path, it has been implemented with the Manhattan heuristic, which, as its name suggests, uses the Manhattan distance.
 h = |x<sub>2</sub> - x<sub>1</sub>| + |y<sub>2</sub> - y<sub>1</sub>|
+
 The labyrinth should be entered through the console line by line, following these instructions:
 - Use '.' for an empty cell.
 - Use '#' for a wall.
